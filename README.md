@@ -1,0 +1,1 @@
+# Photoshop UseSystemStylus Configurator
