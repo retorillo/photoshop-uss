@@ -1,0 +1,8 @@
+/debug
+/release
+/test/debug
+/test/release
+*.ilk
+*.obj
+*.pdb
+*.exe

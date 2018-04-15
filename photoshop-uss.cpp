@@ -117,7 +117,7 @@ CONFIG_STATUS get_config(tstring path) {
     return CONFIG_STATUS::FILE_NOT_FOUND;
   tostringstream fbuf;
   fbuf << f.rdbuf();
-  wstring fread = fbuf.str();
+  tstring fread = fbuf.str();
   int detect = 0;
   replace(fread, tregex(TEXT("^\\s*UseSystemStylus.*$")), [&detect](tstring s) -> tstring {
     if (detect) {
